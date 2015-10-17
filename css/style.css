@@ -1,0 +1,201 @@
+/* --------CSS reset to fix gap at top of page ----- */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+/* --------End of CSS reset------------------ */
+
+html {
+  box-sizing: border-box;
+  
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+/* -------------Navigation Section-------------- */
+.top-navigation {
+	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+
+}
+.top-navigation > .content {
+	width: 58rem;
+	height: 4.375rem;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+
+.content > img {
+	height: 4.3rem;
+}
+
+.top-navigation .links {
+	float: right;
+	font-size: 1rem;
+	letter-spacing: .03rem;
+	margin-top: 1.5rem;
+	
+}
+
+.top-navigation .links li {
+	display: inline;
+	margin-left: 1.5rem;
+}
+.top-navigation .links .active a {
+	color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation a {
+	text-decoration: none;
+	color: #838994;
+}
+.top-navigation a:hover {
+	cursor: pointer;
+    color: #333333;
+}
+
+
+/* --------------Background image section --------------- */
+
+.introduction {
+	background-image: url(../images/first-background.jpg);
+	background-size: cover;
+	background-position: center bottom;
+	height: 40rem;
+	background-repeat: no-repeat;
+}
+.introduction .content {
+	overflow: auto;
+
+}
+h1, h3 {
+	color: white;
+	text-align: center;
+	font-weight: 300;
+}
+
+.introduction .content h1 {
+	font-size: 3.125rem;
+	letter-spacing: 0.02rem;
+	margin-top: 12rem;
+	margin-bottom: 0;	
+}
+.introduction .content h3 {
+	font-size: 1.5rem;
+	margin-top: 1.25rem;
+	margin-bottom: 0;
+
+	
+}
+.introduction .big-button {
+	margin-top: 1.563rem;
+	text-align: center;
+}
+button {
+	width: 9.688rem;
+	background-color: #f15a29;
+	border-color: #f15a29;
+	border-radius: 0.2rem;
+	padding: 1rem 1.5rem;
+	text-decoration: none;
+	margin: 0 auto;
+	font-size: 1.125rem;
+	text-shadow: none;
+	border-style: none;
+	color: white;
+	line-height: 1.33;
+}
+
+button:hover {
+	background-color: #DB3513;
+	cursor: pointer;
+}
+
+/* ------------Next section ------------------*/
+
+.cases {
+	padding-bottom: 5rem;
+}
+.cases .content {
+	margin-top: 7.875rem;
+	text-align: center;
+
+}
+
+h2 {
+	font-weight: 300;
+	
+	font-size: 2.75rem;
+	margin: 1.625rem 0 3.125rem;
+}
+
+.cases .devices {
+	width: 33.333333%;
+	display: inline-block;
+
+}
+
+.devices img {
+	display: block;
+	width: 33.3333%;
+	margin: auto;
+}
+
+.caption h3 {
+	color: black;
+	font-weight: 400;
+	font-size: 1.5rem;
+	margin: 2.5rem 0 1.875rem;
+}
+/* ---------------Footer---------------------- */
+
+h5 {
+	font-weight: 400;
+	text-align: center;
+}
+
+hr {
+	width: 58.125rem;
+	border: 1px solid #eaebec;
+	margin: 1.313rem 0;
+}
+.icons {
+	text-align: center;
+}
+.icons li {
+	display: inline-block;
+	margin: 1rem .2rem;
+}
+
+.social p {
+	font-weight: 300;
+	text-align: center;
+	color: #838994;
+}
+
+.social {
+	padding-bottom: 9.375rem;
+}
+.icons li:hover {
+	cursor: pointer;
+}
+
+
+
+
+
