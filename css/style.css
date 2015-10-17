@@ -76,7 +76,7 @@ body {
 	background-image: url(../images/first-background.jpg);
 	background-size: cover;
 	background-position: center bottom;
-	height: 40rem;
+	height: 47rem;
 	background-repeat: no-repeat;
 }
 .introduction .content {
@@ -92,7 +92,7 @@ h1, h3 {
 .introduction .content h1 {
 	font-size: 3.125rem;
 	letter-spacing: 0.02rem;
-	margin-top: 12rem;
+	margin-top: 19rem;
 	margin-bottom: 0;	
 }
 .introduction .content h3 {
