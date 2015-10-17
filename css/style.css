@@ -172,7 +172,8 @@ h5 {
 hr {
 	width: 58.125rem;
 	border: 1px solid #eaebec;
-	margin: 1.313rem 0;
+	margin: 1.313rem auto;
+
 }
 .icons {
 	text-align: center;
